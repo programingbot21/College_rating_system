@@ -2,6 +2,7 @@
  
  import{registerController ,
      loginController,
+     productReviewController,
     
     // testController,
     // forgotPasswordController,
@@ -21,6 +22,10 @@ router.post('/register', registerController)
 router.post('/login', loginController )
 
 //test router
+
+//Revier router
+
+router.put("/:id/review",  productReviewController);
 
 //  router.post('/forgotpassword', forgotPasswordController)
 
