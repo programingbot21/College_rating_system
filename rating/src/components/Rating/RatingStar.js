@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 function RatingStar() {
-  const [starRating, setStarRating] = useState(0)
-  const [hoverRating , setHoverRating] = useState(0)
+  const [starRating, setStarRating] = useState(2)
+  const [hoverRating , setHoverRating] = useState(2)
 
   const handleStar = (star) => {
       setStarRating(star)

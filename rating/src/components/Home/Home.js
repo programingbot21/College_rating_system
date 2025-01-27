@@ -88,41 +88,41 @@ import Slides from '../Slides/Slides';
 // export default Home
 
   function Home() {
-    const [starRating, setStarRating] = useState(0)
-  const [hoverRating , setHoverRating] = useState(0)
+    const [starRating, setStarRating] = useState(4)
+  const [hoverRating , setHoverRating] = useState(4)
 
-  const [starRating1, setStarRating1] = useState(0)
-  const [hoverRating1 , setHoverRating1] = useState(0)
+  const [starRating1, setStarRating1] = useState(4)
+  const [hoverRating1 , setHoverRating1] = useState(4)
 
-  const [starRating2, setStarRating2] = useState(0)
+  const [starRating2, setStarRating2] = useState(3)
   const [hoverRating2 , setHoverRating2] = useState(0)
     
-  const [starRating3, setStarRating3] = useState(0)
-  const [hoverRating3 , setHoverRating3] = useState(0)
+  const [starRating3, setStarRating3] = useState(4)
+  const [hoverRating3 , setHoverRating3] = useState(4)
 
-  const [starRating4, setStarRating4] = useState(0)
-  const [hoverRating4 , setHoverRating4] = useState(0)
+  const [starRating4, setStarRating4] = useState(3)
+  const [hoverRating4 , setHoverRating4] = useState(3)
 
-  const [starRating5, setStarRating5] = useState(0)
-  const [hoverRating5 , setHoverRating5] = useState(0)
+  const [starRating5, setStarRating5] = useState(3)
+  const [hoverRating5 , setHoverRating5] = useState(3)
 
-  const [starRating6, setStarRating6] = useState(0)
-  const [hoverRating6 , setHoverRating6] = useState(0)
+  const [starRating6, setStarRating6] = useState(4)
+  const [hoverRating6 , setHoverRating6] = useState(4)
 
-  const [starRating7, setStarRating7] = useState(0)
-  const [hoverRating7 , setHoverRating7] = useState(0)
+  const [starRating7, setStarRating7] = useState(4)
+  const [hoverRating7 , setHoverRating7] = useState(4)
 
-  const [starRating8, setStarRating8] = useState(0)
-  const [hoverRating8 , setHoverRating8] = useState(0)
+  const [starRating8, setStarRating8] = useState(4)
+  const [hoverRating8 , setHoverRating8] = useState(4)
 
-  const [starRating9, setStarRating9] = useState(0)
-  const [hoverRating9 , setHoverRating9] = useState(0)
+  const [starRating9, setStarRating9] = useState(3)
+  const [hoverRating9 , setHoverRating9] = useState(3)
 
-  const [starRating10, setStarRating10] = useState(0)
-  const [hoverRating10 , setHoverRating10] = useState(0)
+  const [starRating10, setStarRating10] = useState(4)
+  const [hoverRating10 , setHoverRating10] = useState(4)
 
-  const [starRating11, setStarRating11] = useState(0)
-  const [hoverRating11 , setHoverRating11] = useState(0)
+  const [starRating11, setStarRating11] = useState(3)
+  const [hoverRating11 , setHoverRating11] = useState(3)
 
   const handleStar = (star) => {
       setStarRating(star)
