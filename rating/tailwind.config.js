@@ -5,7 +5,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {colors:{"brand-border": 'black'}},
   },
   plugins: [],
 }

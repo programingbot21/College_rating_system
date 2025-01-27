@@ -46,47 +46,7 @@ const Register = () => {
       };
     
 
-//   return (
-  
-//   <div title={"Register Worker-app"}>
-//      <div className='form-container  relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0'  >
-//          {/* <h1>Register Page</h1>  */}
-//       <form onSubmit={handleSubmit}>
-//       <h4 className="title">REGISTER FORM</h4>
-//   <div className="mb-3  ">
-    
-//     <input type="text" value={name} onChange={(e) => setName(e.target.value)} 
-//      className="form-control" id="exampleInputName1" placeholder='Enter Your name' />
-   
-//   </div>
-//   <div className="mb-3 ">
-    
-//     <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}
-//      id="exampleInputEmail1"  placeholder='Email'/>
-    
-//   </div>
-//   <div className="mb-3">
-   
-//     <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}
-//     className="form-control" id="exampleInputPassword1" placeholder='Password'/>
-//     <div id="emailHelp" className="form-text"></div>
-//   </div>
-//   <div className="mb-3">
-    
-//     <input type="text" value={phone} className="form-control" onChange={(e) => 
-//      setPhone(e.target.value)} id="exampleInputPhone" placeholder='Phone Number' />
-    
-//   </div>
-  
-//   <button type="submit" className="btn btn-primary">
-//     Register</button>
-// </form>
 
-//     </div>
-//   //  </div>
- 
-//   )
-// }
 
 return(
  <div className="font-[sans-serif] bg-white md:h-screen">
@@ -170,3 +130,4 @@ setPhone(e.target.value)}  name="phone Number" type="number" required className=
 
 
 export default Register
+

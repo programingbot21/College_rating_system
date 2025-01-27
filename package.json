@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "@auth0/auth0-react": "^2.3.0",
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",

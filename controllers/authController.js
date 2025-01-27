@@ -20,6 +20,9 @@ export const registerController = async(req, res) => {
         if(!phone){
             return res.send({ message:'Phone is required'})
         }
+        
+            
+
 
         // if(!question){
         //     return res.send({ message:'Message is required'})
@@ -50,6 +53,7 @@ export const registerController = async(req, res) => {
             address,
             password: hashedPassword,
             question,
+            
         
         }).save();
 
@@ -125,7 +129,7 @@ export const loginController = async(req,res) =>{
     }
 };
 
-// //forgotPasswordController
+// forgotPasswordController
 
 // export const forgotPasswordController = async (res,req) => {
 //     try {
@@ -169,18 +173,18 @@ export const loginController = async(req,res) =>{
 //     }
 // };
 
-// //test controller
+//test controller
 
-// export const testController = (req, res) =>{
-//   try {
-//       res.send('protected router')
-//   } catch (error) {
-//     console.log(error)
-//     res.send({error})
-//   }
-// }
+export const testController = (req, res) =>{
+  try {
+      res.send('protected router')
+  } catch (error) {
+    console.log(error)
+    res.send({error})
+  }
+}
 
-export const productReviewController = async (req, res) => {
+export const ReviewController = async (req, res) => {
     try {
       const { comment, rating } = req.body;
       // find product

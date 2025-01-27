@@ -1,8 +1,10 @@
 import React from 'react'
+import Slides5 from '../Slides/Slides5'
 
 function Infor6() {
   return (
     <div>
+      <Slides5 autoSlide={true}/>
       <div>
       
       <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 md:pt-0 sm:pt-16 2xl:pt-16">

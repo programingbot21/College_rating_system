@@ -2,11 +2,13 @@
  
  import{registerController ,
      loginController,
-     productReviewController,
+    //  ReviewController,
+    //  productReviewController,
     
     // testController,
     // forgotPasswordController,
  }from "../controllers/authController.js";
+// import { reviewController } from "../controllers/ratCon.js";
 // import { isAdmin } from "../middleWare/authMiddleware"
     
 
@@ -22,10 +24,10 @@ router.post('/register', registerController)
 router.post('/login', loginController )
 
 //test router
-
+// router.put('/rev', reviewController)
 //Revier router
 
-router.put("/:id/review",  productReviewController);
+// router.put("/:id/review",  ReviewController);
 
 //  router.post('/forgotpassword', forgotPasswordController)
 

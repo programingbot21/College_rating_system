@@ -1,8 +1,12 @@
 import React from 'react'
+// import Slides from '../Slides/Slides'
+
+import Slides12 from '../Slides/Slides12'
 
 function Infor() {
   return (
     <div>
+      <Slides12 autoSlide={true}/>
     <div>
     
     <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 md:pt-0 sm:pt-16 2xl:pt-16">

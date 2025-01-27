@@ -8,6 +8,8 @@ import autoRoutes from './routes/authRoutes.js'
 // import authRoutes from "./routes/authRoutes.js";
 // import categoryRoutes from "./routes/categoryRoutes.js"
 // import productRoutes from "./routes/productRoutes.js"
+// import revRoutes from './routes/revRoutes.js'
+
 import cors from 'cors'
 // import { hash } from 'bcryptjs'
 
@@ -28,7 +30,7 @@ app.use(morgan('dev'));
 //routes
 
 app.use("/api/v1/user",autoRoutes); //autoRoutes
-// app.use("/api/v1/category", categoryRoutes);
+// app.use("/api/v1/rat", revRoutes);
 // app.use("/api/v1/product", productRoutes);
 
 

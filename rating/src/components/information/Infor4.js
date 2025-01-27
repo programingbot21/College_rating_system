@@ -1,8 +1,11 @@
 import React from 'react'
+import Slides3 from '../Slides/Slides3'
+// import { Slide } from 'react-toastify'
 
 function Infor4() {
   return (
     <div>
+      <Slides3 autoSlide={true}/>
       <div>
       
       <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 md:pt-0 sm:pt-16 2xl:pt-16">

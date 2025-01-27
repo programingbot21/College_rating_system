@@ -1,8 +1,10 @@
 import React from 'react'
+import Slides8 from '../Slides/Slides8'
 
 function Infor9() {
   return (
     <div>
+      <Slides8 autoSlide={true}/>
       <div>
       
       <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 md:pt-0 sm:pt-16 2xl:pt-16">

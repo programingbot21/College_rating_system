@@ -1,15 +1,17 @@
 import React, { useState } from "react";
-// import Layout from '../../componet/layout/layout'
+
 import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
 
-// import { useAuth } from "../../context/auth.js";
+
+
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  // const [auth, setAuth] = useAuth("");
-
+  
+  
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -38,106 +40,9 @@ const Login = () => {
       toast.error("Something  went wrong");
     }
   };
-//   return (
-//     // <Layout title="Register - Ecommer App">
-//       <div className="form-container ">
-//         <form onSubmit={handleSubmit}>
-//           <h4 className="title">LOGIN FORM</h4>
 
-//           <div className="mb-3">
-//             <input
-//               type="email"
-//               autoFocus
-//               value={email}
-//               onChange={(e) => setEmail(e.target.value)}
-//               className="form-control"
-//               id="exampleInputEmail1"
-//               placeholder="Enter Your Email "
-//               required
-//             />
-//           </div>
-//           <div className="mb-3">
-//             <input
-//               type="password"
-//               value={password}
-//               onChange={(e) => setPassword(e.target.value)}
-//               className="form-control"
-//               id="exampleInputPassword1"
-//               placeholder="Enter Your Password"
-//               required
-//             />
-//           </div>
-//           <div className="mb-3">
-//             <button
-//               type="button"
-//               className="btn forgot-btn"
-//               onClick={() => {
-//                  navigate("/");                
-//                   //  navigate("/forgotpassword");
-//               }}
-//             >
-//               Forgot Password
-//             </button>
-//           </div>
 
-//           <button type="submit" className="btn btn-primary">
-//             LOGIN
-//           </button>
-//         </form>
-//       </div>
-    
-//   );
-// };
 
-// export default Login;
-// // forget-password
-
-//   return (
-    
-// <div className='form-container  relative flex items-top justify-center min-h-[600px] bg-white sm:items-center sm:pt-0'>
-// <form className="max-w-sm mx-auto"  onSubmit={handleSubmit}>
-//   <div className="mb-5">
-//     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900
-//      dark:text-white">Your email</label>
-//     <input type="email" id="email" className="bg-gray-50 border border-gray-300
-//      text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
-//      block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
-//       dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
-//       autoFocus
-//                    value={email} 
-//                     onChange={(e) => setEmail(e.target.value)}
-//       //             className="form-control"
-//       //               id="exampleInputEmail1"
-//       //               placeholder="Enter Your Email "
-//       //              required
-    
-//     placeholder="" required />
-//   </div>
-//   <div className="mb-5">
-//     <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
-//     <input type="password" id="password" 
-    
-//                 value={password}
-//                 onChange={(e) => setPassword(e.target.value)}
-             
-     
-//               placeholder="Enter Your Password" 
-//      className="bg-gray-50 border border-gray-300
-//      text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5
-//       dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
-//        dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
-//   </div>
-//   <div className="flex items-start mb-5">
-//     <div className="flex items-center h-5">
-//       <input id="remember" type="checkbox" defaultValue className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
-//     </div>
-//     <label htmlFor="remember" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
-//   </div>
-//   <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
-// </form>
-// </div>
-//   )
-// }
 
  return (
 <section className="bg-gray-100 min-h-screen flex box-border justify-center items-center">
@@ -189,6 +94,7 @@ const Login = () => {
         </svg>
         Login with Google
       </button>
+      
       {/* <div className="mt-10 text-sm border-b border-gray-500 py-5 playfair tooltip">Forget password?</div>
       <div className="mt-4 text-sm flex justify-between items-center container-mr">
         <p className="mr-3 md:mr-0 ">If you don't have an account..</p>
@@ -205,3 +111,4 @@ const Login = () => {
      }
 
 export default Login
+

@@ -4,7 +4,8 @@ import React,{useState} from 'react'
 //   Carousel,
 //   initTWE,
 // } from "tw-elements";
-import { Carousel } from "@material-tailwind/react";
+// import { Carousel } from "@material-tailwind/react";
+import Slides from '../Slides/Slides';
 
 // initTWE({ Carousel });
 // import RatingStar from '../Rating/RatingStar';
@@ -233,18 +234,20 @@ setHoverRating11(star)
 }
 
   return(
-    <>
     
+    <div className=' '>
     
-    
+    <div className=''>
+      <Slides  autoSlide={true}/>
+    </div>
 
-    < div className="relative flex items-top justify-center min-h-[590px] bg-white sm:items-center sm:pt-0 gap-x-6">
+    < div className="relative flex  items-top justify-center min-h-[480px] bg-white sm:items-center  sm:pt-0 gap-x-6">
       {/* <div> */}
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
    <a href="/">
     <img className="rounded-t-lg  " src="https://wallpaperaccess.com/full/9564931.jpg" alt="" />
    </a>
-   <div className="p-5">
+   <div className="p-5">s
      <a href="/">
        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">IIT Madras (IITM): Cutoff, Placement, Fees, Admission 2025</h5>
      </a>
@@ -615,7 +618,8 @@ setHoverRating11(star)
    </div>
    </div>
     </div>
-    </>
+   </div>
+    
   )
 }
 export default Home

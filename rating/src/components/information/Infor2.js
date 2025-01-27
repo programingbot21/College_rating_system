@@ -1,8 +1,10 @@
 import React from 'react'
+import Slides2 from '../Slides/Slides2'
 
 function Infor2() {
   return (
     <div>
+      <Slides2 autoSlide={true}/>
         <div>
       
       <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 md:pt-0 sm:pt-16 2xl:pt-16">
@@ -32,9 +34,9 @@ function Infor2() {
              </div>
  
              <div class="relative">
-                 <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt="" />
+                 <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt='' />
  
-                 <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png" alt="" />
+                 <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png" alt='' />
              </div>
  
          </div>
@@ -46,7 +48,7 @@ function Infor2() {
      <div className="sm:flex items-center max-w-screen-xl ml-20">
    <div className="sm:w-1/2 p-10">
      <div className="image object-center text-center">
-       <img  className='ml-10 rounded-lg mt-10' src="https://images.pexels.com/photos/6147276/pexels-photo-6147276.jpeg?auto=compress&cs=tinysrgb&w=600" />
+       <img  className='ml-10 rounded-lg mt-10' src="https://images.pexels.com/photos/6147276/pexels-photo-6147276.jpeg?auto=compress&cs=tinysrgb&w=600" alt='' />
      </div>
    </div>
    <div className="sm:w-1/2 p-5 ml-10">
